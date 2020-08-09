@@ -97,22 +97,10 @@ function getPersonData(secretData) {
     return secretData;
 }
 
-console.log(getPersonData({
-    aaa: 0,
-    bbb: 0
-}));
+console.log(getPersonData({ aaa: 0, bbb: 0 }));
 
-console.log(getPersonData({
-    aaa: 1,
-    bbb: 0
-}));
+console.log(getPersonData({ aaa: 1, bbb: 0 }));
 
-console.log(getPersonData({
-    aaa: 0,
-    bbb: 1
-}));
+console.log(getPersonData({ aaa: 0, bbb: 1 }));
 
-console.log(getPersonData({
-    aaa: 1,
-    bbb: 1
-}));
+console.log(getPersonData({ aaa: 1, bbb: 1 }));
