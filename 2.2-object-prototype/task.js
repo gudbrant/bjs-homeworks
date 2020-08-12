@@ -2,10 +2,6 @@
 
 
 
-function getAverageMark(marks) {
-    // код для задачи №2 писать здесь
-    // return averageMark
-
 //Задание №2
     
 function getAverageMark(marks) {
