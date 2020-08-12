@@ -14,6 +14,10 @@ function getAverageMark(marks) {
     let average = sum / marks.length;
     let roundedAverage = Math.round(average);
     
+    if (roundedAverage <= 0) {
+        return `Нет оценок`
+    }
+    
     return roundedAverage;
 }
 
