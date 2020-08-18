@@ -71,26 +71,22 @@ class DetectiveBook extends Book {
 class Library extends PrintEditionItem {
     
     constructor (name ,state) {
-    super (name, state);
-    this.books = [];
+        super (name, state);
+        this.books = [];
     }
     
     addBook(book) {
-        
         this.books = [];
         this.books.push(book);
         return this.books.length;
     }
     
     findBookBy(type, value) {
-        let bookF = this.books.find (item => item. == book.value) 
-        if (bookF === true) {
-            return this.books;
-        }
         
     }
-    
+
     giveBookByName(bookName) {
+        
         /*let book = this.books.findIndex (item => item.name == book.Name);
         if (book === -1) {
             return null;
@@ -99,6 +95,7 @@ class Library extends PrintEditionItem {
             let bookFiend ((this.book.splice(book, 1)));
             return bookFiend;
         }*/
+        
     }
     
     
