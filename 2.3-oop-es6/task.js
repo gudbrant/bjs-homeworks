@@ -83,18 +83,22 @@ class Library extends PrintEditionItem {
     }
     
     findBookBy(type, value) {
-        this._type = type;
-        this._name = name;
-        if (this._type == this.type || this._name == name) {
+        let bookF = this.books.find (item => item. == book.value) 
+        if (bookF === true) {
             return this.books;
-        } else {
-            return ;
         }
         
     }
     
     giveBookByName(bookName) {
-        return findBookBy.name;
+        /*let book = this.books.findIndex (item => item.name == book.Name);
+        if (book === -1) {
+            return null;
+        } else {
+            this.book.splice(book, 1);
+            let bookFiend ((this.book.splice(book, 1)));
+            return bookFiend;
+        }*/
     }
     
     
