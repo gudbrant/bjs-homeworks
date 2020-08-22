@@ -7,8 +7,7 @@ function polindromChecker() {
 */
 
 String.prototype.isPalindrome = function () {
-    this.String = new String();
-    str = new String ();
+    let str = this;
     
     str = str.toLowerCase().replace(/\s/g,'');
     return str === str.split('').reverse().join('') ? true : false;
@@ -54,8 +53,8 @@ function getAverageMark(marks) {
         sum += marks[i];
     }
     
-    let average = sum / marks.length;
-    let roundedAverage = Math.round(average);
+    const average = sum / marks.length;
+    const roundedAverage = Math.round(average);
     
     if (roundedAverage <= 0) {
         return (roundedAverage = 0);
